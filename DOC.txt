@@ -1,0 +1,26 @@
+IIS SERVER(Internet Information Services)
+DEFINITION:
+Internet Information Services (IIS) is a flexible, general-purpose web server from Microsoft that runs on Windows systems to serve requested HTML pages or files.
+An IIS web server accepts requests from remote client computers and returns the appropriate response. This basic functionality allows web servers to share and deliver information across local area networks, such as corporate intranets, and wide area networks, such as the internet.
+A web server can deliver information to users in several forms, such as static webpages coded in HTML; through file exchanges as downloads and uploads; and text documents, image files and more.
+Web servers provide portals:
+Modern web servers can provide far more functionality for a business and its users. Web servers are often used as portals for sophisticated, highly interactive, web-based applications that tie enterprise middleware and back-end applications together to create enterprise-class systems. For example, Amazon Web Services allows users to administer public cloud resources through a web-based portal. Meanwhile, streaming media services, such as Spotify for music and Netflix for movies, deliver real-time streaming content through web servers.
+ARCHITECTURE:
+ 
+
+How IIS works:
+IIS works through a variety of standard languages and protocols. HTML is used to create elements such as text, buttons, image placements, direct interactions/behaviors and hyperlinks. The Hypertext Transfer Protocol (HTTP) is the basic communication protocol used to exchange information between web servers and users. HTTPS -- HTTP over Secure Sockets Layer (SSL) -- uses Transport Layer Security or SSL to encrypt the communication for added data security. The File Transfer Protocol, or its secure variant, FTPS, can transfer files.
+IIS works with ASP.NET Core:
+The ASP.NET Core framework is the latest generation of Active Server Page (ASP), a server-side script engine that produces interactive webpages. A request comes in to the IIS server from the web, which sends the request to the ASP.NET Core application, which processes the request and sends its response back to the IIS server and the client who originated the request. Examples of applications written on ASP.NET Core include blog platforms and content management systems.
+Developers can produce IIS websites with a number of tools, including Web Distributed Authoring and Versioning, which can create and publish web content. Developers can also use integrated development tools, such as Microsoft Visual Studio.
+Versions of IIS:
+IIS has evolved along with Microsoft Windows. Early versions of IIS arrived with Windows NT. IIS 1.0 appeared with Windows NT 3.51, and evolved through IIS 4.0 with Windows NT 4.0. IIS 5.0 shipped with Windows 2000. Microsoft added IIS 6.0 to Windows Server 2003. IIS 7.0 offered a major redesign with Windows Server 2008 (IIS 7.5 is in Windows Server 2008 R2). IIS 8.0 came with Windows Server 2012 (Windows Server 2012 R2 uses IIS 8.5). And IIS 10 arrived with Windows Server 2016 and Windows 10.
+With each iteration of IIS, Microsoft has added new features and updated existing functionality. For example, IIS 3.0 added ASP for dynamic scripting; IIS 6.0 added support for IPv6 and improved security and reliability; and IIS 8.0 brought multicore scaling on non-uniform memory access hardware, centralized SSL certificate support and Server Name Indication.
+Features in IIS 10:
+IIS 10 also adds a number of new features and functionality.
+
+IIS 10 adds support for the HTTP/2 protocol, to offer more efficient resource use and lower latency compared to HTTP 1.1. IIS 10 works on the minimal server deployment model Nano Server under Windows Server 2016, and can run ASP.NET Core, Apache Tomcat and PHP workloads on IIS on the Nano Server.
+
+IIS 10 works in a container and virtual machine, so developers and administrators have more flexibility in deployment choices, as well as the density to accommodate a broad range of web applications.
+IIS Express for testing:
+Microsoft provides a self-contained version of IIS, called IIS Express, for developers to test websites. IIS Express offers all the major capabilities of the full IIS web server, but allows many tasks to be performed without administrative privileges. 
